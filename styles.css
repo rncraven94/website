@@ -64,14 +64,17 @@ body {
   margin-top: -24rem;
   margin-bottom: 28rem;
   padding: 0 28rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
 }
 
 .btn-nav {
   /* display: grid; */
   /* grid-template-columns: 1fr 1fr 1fr; */
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .btn-nav:visited,
@@ -89,4 +92,8 @@ body {
   border: thick double #999;
   text-shadow: 10px 1px 50px;
   border-radius: 25%;
+}
+
+.bio {
+  color: #bdbdbd;
 }
