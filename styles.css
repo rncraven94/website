@@ -1,3 +1,92 @@
-body {
+/* 
+Dark primary color: #303f9f
+Light primary color: #c5cae9
+Primary Color: #3f51b5
+Text/Icons: #ffffff
+Accent Color: #607D8B
+Primary Text: #212121
+Secondary text: #757575
+Divider Color: #bdbdbd
+*/
+
+html {
   font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* color: #212121; */
+  line-height: 1;
+  font-weight: 300;
+}
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* Start with opacity 0 */
+  }
+  to {
+    opacity: 1; /* Transition to opacity 1 */
+  }
+}
+
+.section-head {
+  color: #bdbdbd;
+  justify-content: left;
+  align-items: center;
+  background-color: #3f51b5;
+  padding: 6.4rem 0;
+}
+.section-intro-head {
+  max-width: 150rem;
+}
+
+.header-heading {
+  margin: 28rem;
+  font-size: 6.4rem;
+  letter-spacing: -1px;
+}
+
+/* .btn-bio {
+} */
+
+.nav-list {
+  justify-content: center;
+  align-items: center;
+  margin-top: -24rem;
+  margin-bottom: 28rem;
+  padding: 0 28rem;
+}
+
+.btn-nav {
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.btn-nav:visited,
+.btn-nav:link {
+  font-size: 3.2rem;
+  text-decoration: none;
+  border: thick double #bdbdbd;
+  transition: all 0.5s;
+  color: #bdbdbd;
+}
+
+.btn-nav:hover,
+.btn-nav:active {
+  color: #999;
+  border: thick double #999;
+  text-shadow: 10px 1px 50px;
+  border-radius: 25%;
 }
