@@ -96,4 +96,51 @@ body {
 
 .bio {
   color: #bdbdbd;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 12rem;
+}
+.bio-img {
+  width: 40rem;
+  height: auto;
+  position: relative;
+  z-index: 1;
+  border-radius: 5%;
+}
+.circle-container {
+  position: relative;
+  display: inline-block;
+}
+.circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50rem;
+  height: 50rem;
+  border-radius: 50%;
+  background-color: #c5cae9;
+}
+
+.bio-text {
+  border: thick double #212121;
+  color: #212121;
+  padding: 6.4rem;
+  font-size: 3rem;
+  font-weight: 100;
+  z-index: 10;
+}
+
+.rect {
+  position: fixed;
+  top: 0;
+  left: 5%;
+  width: 100%;
+  height: 10rem; /* Adjust the height as needed */
+  background-color: #d9dcf0; /* Adjust the background color */
+  z-index: -999; /* Place the rectangle behind other content */
+  margin-top: 30rem;
 }
