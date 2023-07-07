@@ -234,3 +234,60 @@ body {
   transition: transform 1s;
   position: relative;
 }
+.book-text {
+  font-weight: 100;
+  font-size: 2rem;
+  margin: 0 24rem;
+}
+/* skills */
+
+.skills {
+  text-align: center;
+  margin: 6.4rem;
+  border: thick double #212121;
+  background: linear-gradient(#c5cae9, #3f51b5);
+}
+
+.skills-text {
+  font-size: 6.4rem;
+  font-weight: 100;
+  margin-top: 6.4rem;
+}
+.skills-box {
+  margin-top: 6.4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+.skill-img {
+  width: 10rem;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.skills-four {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 6.4rem;
+  justify-items: center;
+  margin-bottom: 3.2rem;
+}
+
+/* .skill-img:hover {
+  box-shadow: 10px 10px 1px #303f9f;
+  transition: all 2.5s;
+} */
+
+/* 
+Projects
+*/
+.projects {
+}
+
+.project-heading {
+  font-weight: 300;
+  font-size: 6.4rem;
+  padding-left: 20rem;
+}
