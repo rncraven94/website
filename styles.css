@@ -24,6 +24,7 @@ body {
   /* color: #212121; */
   line-height: 1;
   font-weight: 300;
+  background: linear-gradient(#3f51b5, #c5cae9);
 }
 .fade-in {
   opacity: 0;
@@ -102,6 +103,7 @@ body {
   align-items: center;
   text-align: center;
   margin: 12rem;
+  margin-bottom: 18rem;
 }
 .bio-img {
   width: 40rem;
@@ -162,7 +164,7 @@ body {
 }
 
 .interests {
-  background-color: #c5cae9;
+  /* background-color: #c5cae9; */
   max-width: 150rem;
 }
 
@@ -245,7 +247,7 @@ body {
   text-align: center;
   margin: 6.4rem;
   border: thick double #212121;
-  background: linear-gradient(#c5cae9, #3f51b5);
+  /* background: linear-gradient(#c5cae9, #3f51b5); */
 }
 
 .skills-text {
@@ -284,8 +286,8 @@ body {
 Projects
 */
 .projects {
-  background-color: #fff190;
-  border: thin double #3f51b5;
+  /* background-color: #fff190; */
+  /* border: thin double #3f51b5; */
   padding-bottom: 6.4rem;
 }
 
@@ -316,4 +318,49 @@ Projects
 
 .project-text-heading {
   font-weight: bold;
+}
+
+/* contact section */
+.contact {
+  margin-top: 24rem;
+  /* background: linear-gradient(#c5cae9, #798bff); */
+  margin-bottom: -6rem;
+  background-color: #c5cae9;
+}
+
+.contact-heading {
+  font-size: 4.8rem;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 6.4rem;
+}
+
+.contact-text {
+  text-align: center;
+  font-weight: 200;
+  font-size: 3.2rem;
+  margin-bottom: 4.8rem;
+}
+
+.contact-img-row {
+  grid-template-columns: repeat(2, 1fr);
+  display: grid;
+  text-align: center;
+  margin: 0rem 60rem;
+}
+
+.contact-img {
+  width: 10rem;
+  height: auto;
+}
+
+/* very bottom section */
+.back-to-top {
+  display: block;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 100;
+  text-decoration: none;
+  background-color: #c5cae9;
+  margin-top: 3.6rem;
 }

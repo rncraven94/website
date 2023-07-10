@@ -15,19 +15,21 @@
     <script defer src="script.js"></script>
   </head>
   <body>
-    <section class="section-head">
+    <section class="section-head" id="return">
       <div class="section-intro-head">
         <h1 class="header-heading fade-in">
           Hello! My name is Robert Craven, and I am a Frontend Developer
         </h1>
         <ul class="nav-list">
-          <a class="btn-nav fade-in" href="#Learn">Learn about me</a>
-          <a class="btn-nav fade-in" href="#">Projects</a>
-          <a class="btn-nav fade-in" href="#">Contact</a>
+          <a class="btn-nav fade-in learn-about-me" href="#Learn"
+            >Learn about me</a
+          >
+          <a class="btn-nav fade-in project" href="#Project">Projects</a>
+          <a class="btn-nav fade-in contact-tab" href="#Contact">Contact</a>
         </ul>
       </div>
     </section>
-    <section class="bio" id="#Learn">
+    <section class="bio" id="Learn">
       <div class="circle-container">
         <div class="circle"></div>
         <div class="circle-thinning"></div>
@@ -107,7 +109,7 @@
         <img class="skill-img" src="62a6360f03a870b920cbfd41.png" />
       </ul>
     </section>
-    <section class="projects">
+    <section class="projects" id="Project">
       <h1 class="project-heading">Projects</h1>
       <div class="project-box">
         <div class="project-text">
@@ -122,6 +124,27 @@
         <img class="project-img" src="erikakramer.jpg" />
       </div>
     </section>
-    <section class="contact"></section>
+    <section class="contact" id="Contact">
+      <h1 class="contact-heading">Contact</h1>
+      <div class="contact-text">
+        Do you want to work with me? Let's get in touch!
+      </div>
+      <div class="contact-img-row">
+        <div class="contact-img-box">
+          <a
+            href="https://www.linkedin.com/in/robert-craven-067a5a1a1/"
+            target="_blank"
+          >
+            <img class="contact-img" src="LinkedIn_logo_initials.png.webp" />
+          </a>
+        </div>
+        <div class="contact-img-box">
+          <a href="https://github.com/rncraven94" target="_blank">
+            <img class="contact-img" src="GitHub-Mark.png" />
+          </a>
+        </div>
+      </div>
+      <a class="back-to-top return" href="#return">Back to top</a>
+    </section>
   </body>
 </html>

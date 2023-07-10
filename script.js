@@ -40,3 +40,60 @@ const prevSlide = function () {
 
 btnRight.addEventListener("click", nextSlide);
 btnLeft.addEventListener("click", prevSlide);
+
+/////////////////////////////////////////////////////////////////////////
+// smooth scrolling section
+
+//learn section
+const btnScrollToLearn = document.querySelector(".learn-about-me");
+const bio = document.querySelector("#Learn");
+
+//project section
+const btnScrollToProject = document.querySelector(".project");
+const projSection = document.querySelector("#Project");
+//contact section
+const btnScrollToContact = document.querySelector(".contact-tab");
+const contactSection = document.querySelector("#Contact");
+//backtotop
+const btnReturn = document.querySelector(".return");
+const returnSection = document.querySelector("#return");
+
+btnScrollToLearn.addEventListener("click", function (e) {
+  e.preventDefault();
+  const s1coords = bio.getBoundingClientRect();
+  window.scrollTo({
+    left: s1coords + window.pageXOffset,
+    top: s1coords.top + window.pageYOffset,
+    behavior: "smooth",
+  });
+});
+
+btnScrollToProject.addEventListener("click", function (e) {
+  e.preventDefault();
+  const s2coords = projSection.getBoundingClientRect();
+  window.scrollTo({
+    left: s2coords + window.pageXOffset,
+    top: s2coords.top + window.pageYOffset,
+    behavior: "smooth",
+  });
+});
+
+btnScrollToContact.addEventListener("click", function (e) {
+  e.preventDefault();
+  const s3coords = contactSection.getBoundingClientRect();
+  window.scrollTo({
+    left: s3coords + window.pageXOffset,
+    top: s3coords.top + window.pageYOffset,
+    behavior: "smooth",
+  });
+});
+
+btnReturn.addEventListener("click", function (e) {
+  e.preventDefault();
+  const s4coords = returnSection.getBoundingClientRect();
+  window.scrollTo({
+    left: s4coords + window.pageXOffset,
+    top: s4coords.top + window.pageYOffset,
+    behavior: "smooth",
+  });
+});
