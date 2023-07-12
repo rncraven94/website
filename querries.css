@@ -405,5 +405,167 @@
   .contact-text {
     font-size: 2.6rem;
   }
+  .projects {
+    padding-bottom: 2.4rem;
+  }
 }
-@media (max-width: );
+@media (max-width: 37.5em) {
+  .header-heading {
+    font-size: 2.8rem;
+    margin: 10rem;
+  }
+  .nav-list {
+    padding: 0 20rem;
+    margin-top: 0;
+  }
+  .bio-img {
+    width: 16rem;
+  }
+  .circle {
+    width: 20rem;
+    height: 20rem;
+  }
+  .circle-thinning {
+    width: 25rem;
+    height: 25rem;
+  }
+  .circle-thin {
+    width: 30rem;
+    height: 30rem;
+  }
+  .bio-text {
+    margin: 0 1.2rem;
+    padding: 1.6rem;
+  }
+  .interests {
+    max-width: 35rem;
+  }
+  .slider_btn-left {
+    margin-left: 6rem;
+  }
+  .slider_btn-right {
+    margin-left: 26rem;
+  }
+  .book-text {
+    margin: 0 0.6rem;
+  }
+  .skills-text {
+    font-size: 3.6rem;
+  }
+  .skill-img {
+    width: 5.6rem;
+  }
+  .project-text {
+    font-size: 1.6rem;
+  }
+  .project-img {
+    width: 42rem;
+  }
+  .contact-img-row {
+    margin: 0 15rem;
+    column-gap: 10%;
+  }
+  .contact-text {
+    font-size: 2.2rem;
+  }
+}
+@media (max-width: 34.38em) {
+  .header-heading {
+    margin: 8rem;
+  }
+  .nav-list {
+    margin-top: 12rem;
+    padding: 0 18rem;
+  }
+  .bio-text {
+    margin: 0 0.8rem;
+    padding: 0.8rem;
+  }
+  .skills-text {
+    font-size: 3rem;
+  }
+  .bio {
+    margin: 6rem;
+    margin-bottom: 12rem;
+  }
+  .project-text {
+    margin: 4.8rem 2.4rem;
+    margin-top: -1.6rem;
+  }
+  .project-img {
+    margin-bottom: -9.6rem;
+    width: 36rem;
+  }
+  .contact-text {
+    font-size: 2rem;
+  }
+  .contact-img-row {
+    margin: 0 10rem;
+  }
+}
+@media (max-width: 31.25em) {
+  .header-heading {
+    margin: 4rem;
+  }
+  .nav-list {
+    padding: 0 14rem;
+  }
+  .skills {
+    margin: 3.6rem;
+  }
+  .skills-text {
+    font-size: 2.8rem;
+  }
+  .skill-img {
+    width: 4.8rem;
+  }
+  .contact-text {
+    font-size: 1.8rem;
+  }
+  .back-to-top {
+    font-size: 2.8rem;
+  }
+}
+@media (max-width: 25.94em) {
+  .header-heading {
+    margin: 2rem;
+    font-size: 2.6rem;
+  }
+  .nav-list {
+    padding: 0 12rem;
+    margin-top: 14rem;
+  }
+  .bio {
+    margin: 4.8rem;
+  }
+  .bio-text {
+    margin: 0;
+  }
+  .book-heading {
+    font-size: 2.8rem;
+  }
+  .interests {
+    max-width: 30rem;
+    /* overflow: visible; */
+  }
+  .slider_btn-left {
+    margin-left: 3.7rem;
+  }
+  .slider_btn-right {
+    margin-left: 23.75rem;
+  }
+  .book-text {
+    margin-top: 1.6rem;
+    font-size: 1.9rem;
+  }
+  .contact-img-row {
+    margin: 0 5rem;
+  }
+  .contact-img {
+    width: 8rem;
+  }
+}
+@media (max-width: 23.44em) {
+  .project-text {
+  }
+}
