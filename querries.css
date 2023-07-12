@@ -566,6 +566,50 @@
   }
 }
 @media (max-width: 23.44em) {
+  .nav-list {
+    padding: 0 10rem;
+  }
+  .skills-text {
+    font-size: 2.4rem;
+  }
+  .skill-img {
+    width: 4.2rem;
+  }
   .project-text {
+    font-size: 1.4rem;
+    margin: 0;
+    margin-bottom: 4.8rem;
+  }
+  .project-img {
+    width: 28rem;
+  }
+  .contact-text {
+    font-size: 1.6rem;
+    font-weight: 300;
+  }
+  .contact-heading {
+    font-size: 2.8rem;
+  }
+  .back-to-top {
+    font-size: 2.4rem;
+  }
+}
+@media (max-width: 20em) {
+  .nav-list {
+    padding: 0 8rem;
+  }
+  .bio {
+    margin: 0.8rem;
+    margin-top: 6.4rem;
+  }
+  .project-text {
+    margin: 2rem 1.2rem;
+    margin-top: -1.6rem;
+  }
+  .project-img {
+    width: 24rem;
+  }
+  .contact-text {
+    font-size: 1.4rem;
   }
 }
