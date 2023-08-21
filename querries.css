@@ -488,12 +488,14 @@
     margin: 6rem;
     margin-bottom: 12rem;
   }
+  /* .project-box { */
+  /* } */
   .project-text {
     margin: 4.8rem 2.4rem;
     margin-top: -1.6rem;
   }
   .project-img {
-    margin-bottom: -9.6rem;
+    margin-bottom: -3.2rem;
     width: 36rem;
   }
   .contact-text {
