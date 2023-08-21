@@ -375,6 +375,9 @@
     font-size: 2rem;
   }
   .project-img {
+    margin-left: 0rem;
+  }
+  .project-img {
     width: 56rem;
   }
   .contact-img-row {
