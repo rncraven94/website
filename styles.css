@@ -273,7 +273,7 @@ body {
 }
 .skills-four {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   margin-top: 6.4rem;
   justify-items: center;
   margin-bottom: 3.2rem;
