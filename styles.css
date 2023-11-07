@@ -310,6 +310,7 @@ Projects
   height: auto;
   border: thick double #3f51b5;
   margin-left: 12rem;
+  justify-self: end;
 }
 .project-text {
   font-size: 2.4rem;
